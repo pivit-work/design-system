@@ -57,27 +57,27 @@
   --colors-grayNeutral-25: #fcfcfd;
   --colors-grayNeutral-50: #f9fafb;
   --colors-grayNeutral-100: #f3f4f6;
-  --colors-grayNeutral-200: #e5e7eb;
+  --colors-grayNeutral-200: #e6e8ea;
   --colors-grayNeutral-300: #d2d6db;
-  --colors-grayNeutral-400: #9da4ae;
-  --colors-grayNeutral-500: #6c737f;
-  --colors-grayNeutral-600: #4d5761;
-  --colors-grayNeutral-700: #384250;
-  --colors-grayNeutral-800: #1f2a37;
+  --colors-grayNeutral-400: #b1b6be;
+  --colors-grayNeutral-500: #8b929c;
+  --colors-grayNeutral-600: #687079;
+  --colors-grayNeutral-700: #596069;
+  --colors-grayNeutral-800: #2c3744;
   --colors-grayNeutral-900: #111927;
   --colors-grayNeutral-950: #0d121c;
-  --colors-brand-25: #fafef5;
-  --colors-brand-50: #f3fee7;
-  --colors-brand-100: #e3fbcc;
-  --colors-brand-200: #d0f8ab;
-  --colors-brand-300: #a6ef67;
-  --colors-brand-400: #85e13a;
-  --colors-brand-500: #66c61c;
-  --colors-brand-600: #4ca30d;
-  --colors-brand-700: #3b7c0f;
-  --colors-brand-800: #326212;
-  --colors-brand-900: #2b5314;
-  --colors-brand-950: #15290a;
+  --colors-brand-25: #fafffd;
+  --colors-brand-50: #f1fffa;
+  --colors-brand-100: #e1fef2;
+  --colors-brand-200: #b3fade;
+  --colors-brand-300: #96f9d2;
+  --colors-brand-400: #5af3b4;
+  --colors-brand-500: #2dbd82;
+  --colors-brand-600: #21a67a;
+  --colors-brand-700: #10774d;
+  --colors-brand-800: #0c5739;
+  --colors-brand-900: #0b4b31;
+  --colors-brand-950: #072619;
   --colors-error-25: #fffbfa;
   --colors-error-50: #fef3f2;
   --colors-error-100: #fee4e2;
@@ -89,7 +89,7 @@
   --colors-error-700: #b42318;
   --colors-error-800: #912018;
   --colors-error-900: #7a271a;
-  --colors-error-950: #55160c;
+  --colors-error-950: #220905;
   --colors-warning-25: #fffcf5;
   --colors-warning-50: #fffaeb;
   --colors-warning-100: #fef0c7;
@@ -378,6 +378,54 @@
   --colors-grayDarkMode-800: #22262f;
   --colors-grayDarkMode-900: #13161b;
   --colors-grayDarkMode-950: #0c0e12;
+  --colors-grayLight-25: #fdfdfd;
+  --colors-grayLight-50: #fafafa;
+  --colors-grayLight-100: #f5f5f5;
+  --colors-grayLight-200: #e9eaeb;
+  --colors-grayLight-300: #d5d7da;
+  --colors-grayLight-400: #a4a7ae;
+  --colors-grayLight-500: #717680;
+  --colors-grayLight-600: #535862;
+  --colors-grayLight-700: #414651;
+  --colors-grayLight-800: #252b37;
+  --colors-grayLight-900: #181d27;
+  --colors-grayLight-950: #0a0d12;
+  --colors-grayDarkAlpha-25: rgba(255, 255, 255, 0.98);
+  --colors-grayDarkAlpha-50: rgba(255, 255, 255, 0.96);
+  --colors-grayDarkAlpha-100: rgba(255, 255, 255, 0.94);
+  --colors-grayDarkAlpha-200: rgba(255, 255, 255, 0.92);
+  --colors-grayDarkAlpha-300: rgba(255, 255, 255, 0.8);
+  --colors-grayDarkAlpha-400: rgba(255, 255, 255, 0.56);
+  --colors-grayDarkAlpha-500: rgba(255, 255, 255, 0.5);
+  --colors-grayDarkAlpha-600: rgba(255, 255, 255, 0.35);
+  --colors-grayDarkAlpha-700: rgba(255, 255, 255, 0.16);
+  --colors-grayDarkAlpha-800: rgba(255, 255, 255, 0.08);
+  --colors-grayDarkAlpha-900: rgba(255, 255, 255, 0.04);
+  --colors-grayDarkAlpha-950: rgba(255, 255, 255, 0);
+  --colors-grayDark-25: #fafafa;
+  --colors-grayDark-50: #f7f7f7;
+  --colors-grayDark-100: #f0f0f1;
+  --colors-grayDark-200: #ececed;
+  --colors-grayDark-300: #cecfd2;
+  --colors-grayDark-400: #94979c;
+  --colors-grayDark-500: #85888e;
+  --colors-grayDark-600: #61656c;
+  --colors-grayDark-700: #373a41;
+  --colors-grayDark-800: #22262f;
+  --colors-grayDark-900: #161618;
+  --colors-grayDark-950: #0c0e12;
+  --colors-emerald-25: #fafffd;
+  --colors-emerald-50: #f1fffa;
+  --colors-emerald-100: #e1fef2;
+  --colors-emerald-200: #b3fade;
+  --colors-emerald-300: #96f9d2;
+  --colors-emerald-400: #5af3b4;
+  --colors-emerald-500: #2dbd82;
+  --colors-emerald-600: #21a67a;
+  --colors-emerald-700: #10774d;
+  --colors-emerald-800: #0c5739;
+  --colors-emerald-900: #0b4b31;
+  --colors-emerald-950: #072619;
   --colors-text-textPrimary-900: #181d27;
   --colors-text-textTertiary-600: #535862;
   --colors-text-textErrorPrimary-600: #d92d20;
@@ -388,37 +436,37 @@
   --colors-text-textDisabled: #717680;
   --colors-text-textSecondaryHover: #252b37;
   --colors-text-textTertiaryHover: #414651;
-  --colors-text-textBrandSecondary-700: #3b7c0f;
+  --colors-text-textBrandSecondary-700: #10774d;
   --colors-text-textPlaceholder: #717680;
   --colors-text-textPlaceholderSubtle: #d5d7da;
-  --colors-text-textBrandTertiary-600: #4ca30d;
+  --colors-text-textBrandTertiary-600: #21a67a;
   --colors-text-textQuaternary-500: #717680;
-  --colors-text-textBrandPrimary-900: #2b5314;
+  --colors-text-textBrandPrimary-900: #0b4b31;
   --colors-text-textPrimaryOnBrand: #ffffff;
-  --colors-text-textSecondaryOnBrand: #d0f8ab;
-  --colors-text-textTertiaryOnBrand: #d0f8ab;
-  --colors-text-textQuaternaryOnBrand: #a6ef67;
-  --colors-text-textBrandTertiaryAlt: #4ca30d;
+  --colors-text-textSecondaryOnBrand: #b3fade;
+  --colors-text-textTertiaryOnBrand: #b3fade;
+  --colors-text-textQuaternaryOnBrand: #96f9d2;
+  --colors-text-textBrandTertiaryAlt: #21a67a;
   --colors-text-textErrorPrimaryHover: #b42318;
   --colors-border-borderSecondary: #e9eaeb;
   --colors-border-borderErrorSubtle: #fda29b;
   --colors-border-borderPrimary: #d5d7da;
-  --colors-border-borderBrand: #66c61c;
+  --colors-border-borderBrand: #2dbd82;
   --colors-border-borderDisabled: #d5d7da;
   --colors-border-borderError: #f04438;
   --colors-border-borderDisabledSubtle: #e9eaeb;
   --colors-border-borderTertiary: #f5f5f5;
-  --colors-border-borderBrandAlt: #4ca30d;
+  --colors-border-borderBrandAlt: #21a67a;
   --colors-border-borderSecondaryAlt: rgba(0, 0, 0, 0.08);
   --colors-background-bgPrimary: #ffffff;
   --colors-background-bgTertiary: #f5f5f5;
-  --colors-background-bgBrandPrimary: #f3fee7;
+  --colors-background-bgBrandPrimary: #f1fffa;
   --colors-background-bgErrorSecondary: #fee4e2;
   --colors-background-bgWarningPrimary: #fffaeb;
   --colors-background-bgWarningSecondary: #fef0c7;
   --colors-background-bgSuccessPrimary: #ecfdf3;
   --colors-background-bgSuccessSecondary: #dcfae6;
-  --colors-background-bgBrandSolid: #4ca30d;
+  --colors-background-bgBrandSolid: #21a67a;
   --colors-background-bgSecondarySolid: #535862;
   --colors-background-bgErrorSolid: #d92d20;
   --colors-background-bgWarningSolid: #dc6803;
@@ -427,19 +475,19 @@
   --colors-background-bgPrimaryHover: #fafafa;
   --colors-background-bgDisabled: #f5f5f5;
   --colors-background-bgActive: #fafafa;
-  --colors-background-bgBrandSolidHover: #3b7c0f;
+  --colors-background-bgBrandSolidHover: #10774d;
   --colors-background-bgErrorPrimary: #fef3f2;
-  --colors-background-bgBrandSecondary: #e3fbcc;
+  --colors-background-bgBrandSecondary: #e1fef2;
   --colors-background-bgSecondary: #fafafa;
   --colors-background-bgDisabledSubtle: #fafafa;
   --colors-background-bgQuaternary: #e9eaeb;
   --colors-background-bgPrimaryAlt: #ffffff;
-  --colors-background-bgBrandPrimaryAlt: #f3fee7;
+  --colors-background-bgBrandPrimaryAlt: #f1fffa;
   --colors-background-bgSecondaryAlt: #fafafa;
   --colors-background-bgOverlay: #0a0d12;
   --colors-background-bgSecondarySubtle: #fdfdfd;
-  --colors-background-bgBrandSection: #326212;
-  --colors-background-bgBrandSectionSubtle: #3b7c0f;
+  --colors-background-bgBrandSection: #0c5739;
+  --colors-background-bgBrandSectionSubtle: #10774d;
   --colors-background-bgPrimarySolid: #0a0d12;
   --colors-background-bgErrorSolidHover: #b42318;
   --colors-foreground-fgSecondary-700: #414651;
@@ -450,8 +498,8 @@
   --colors-foreground-fgSecondaryHover: #252b37;
   --colors-foreground-fgPrimary-900: #181d27;
   --colors-foreground-fgDisabled: #a4a7ae;
-  --colors-foreground-fgBrandSecondary-500: #66c61c;
-  --colors-foreground-fgBrandPrimary-600: #4ca30d;
+  --colors-foreground-fgBrandSecondary-500: #2dbd82;
+  --colors-foreground-fgBrandPrimary-600: #21a67a;
   --colors-foreground-fgQuaternary-400: #a4a7ae;
   --colors-foreground-fgQuaternaryHover: #717680;
   --colors-foreground-fgErrorPrimary: #d92d20;
@@ -460,9 +508,9 @@
   --colors-foreground-fgErrorSecondary: #f04438;
   --colors-foreground-fgTertiary-600: #535862;
   --colors-foreground-fgTertiaryHover: #414651;
-  --colors-foreground-fgBrandPrimaryAlt: #4ca30d;
-  --colors-foreground-fgBrandSecondaryAlt: #66c61c;
-  --colors-foreground-fgBrandSecondaryHover: #4ca30d;
+  --colors-foreground-fgBrandPrimaryAlt: #21a67a;
+  --colors-foreground-fgBrandSecondaryAlt: #2dbd82;
+  --colors-foreground-fgBrandSecondaryHover: #21a67a;
   --colors-effects-shadows-shadowXs: rgba(10, 13, 18, 0.05);
   --colors-effects-shadows-shadowSm02: rgba(10, 13, 18, 0.1);
   --colors-effects-shadows-shadowLg01: rgba(10, 13, 18, 0.08);
@@ -484,7 +532,7 @@
   --colors-effects-portfolioMockups-shadowMainCentreLg: rgba(10, 13, 18, 0.18);
   --colors-effects-portfolioMockups-shadowOverlayLg: rgba(10, 13, 18, 0.12);
   --colors-effects-portfolioMockups-shadowGridMd: rgba(10, 13, 18, 0.08);
-  --colors-effects-focusRings-focusRing: #66c61c;
+  --colors-effects-focusRings-focusRing: #2dbd82;
   --colors-effects-focusRings-focusRingError: #f04438;
   --spacing-0-0px: 0;
   --spacing-0․5-2px: 2;
@@ -542,20 +590,20 @@
   --grayDarkMode-600: #61656c;
   --grayDarkMode-700: #373a41;
   --grayDarkMode-800: #22262f;
-  --grayDarkMode-900: #13161b;
+  --grayDarkMode-900: #161618;
   --grayDarkMode-950: #0c0e12;
-  --brand-25: #fafef5;
-  --brand-50: #f3fee7;
-  --brand-100: #e3fbcc;
-  --brand-200: #d0f8ab;
-  --brand-300: #a6ef67;
-  --brand-400: #85e13a;
-  --brand-500: #66c61c;
-  --brand-600: #4ca30d;
-  --brand-700: #3b7c0f;
-  --brand-800: #326212;
-  --brand-900: #2b5314;
-  --brand-950: #15290a;
+  --brand-25: #fafffd;
+  --brand-50: #f1fffa;
+  --brand-100: #e1fef2;
+  --brand-200: #b3fade;
+  --brand-300: #96f9d2;
+  --brand-400: #5af3b4;
+  --brand-500: #2dbd82;
+  --brand-600: #21a67a;
+  --brand-700: #10774d;
+  --brand-800: #0c5739;
+  --brand-900: #0b4b31;
+  --brand-950: #072619;
   --error-25: #fffbfa;
   --error-50: #fef3f2;
   --error-100: #fee4e2;
@@ -567,7 +615,7 @@
   --error-700: #b42318;
   --error-800: #912018;
   --error-900: #7a271a;
-  --error-950: #55160c;
+  --error-950: #220905;
   --warning-25: #fffcf5;
   --warning-50: #fffaeb;
   --warning-100: #fef0c7;
@@ -631,13 +679,13 @@
   --grayNeutral-25: #fcfcfd;
   --grayNeutral-50: #f9fafb;
   --grayNeutral-100: #f3f4f6;
-  --grayNeutral-200: #e5e7eb;
+  --grayNeutral-200: #e6e8ea;
   --grayNeutral-300: #d2d6db;
-  --grayNeutral-400: #9da4ae;
-  --grayNeutral-500: #6c737f;
-  --grayNeutral-600: #4d5761;
-  --grayNeutral-700: #384250;
-  --grayNeutral-800: #1f2a37;
+  --grayNeutral-400: #b1b6be;
+  --grayNeutral-500: #8b929c;
+  --grayNeutral-600: #687079;
+  --grayNeutral-700: #596069;
+  --grayNeutral-800: #2c3744;
   --grayNeutral-900: #111927;
   --grayNeutral-950: #0d121c;
   --grayIron-25: #fcfcfc;
@@ -894,13 +942,13 @@
   --gradient-gray-200>25-180deg: linear-gradient(180deg, #fdfdfd 0%, #e9eaeb 100%);
   --gradient-gray-200>50-180deg: linear-gradient(180deg, #fafafa 0%, #e9eaeb 100%);
   --gradient-gray-200>100-180deg: linear-gradient(180deg, #f5f5f5 0%, #e9eaeb 100%);
-  --gradient-brand-600>500-90deg: linear-gradient(90deg, #4ca30d 0%, #66c61c 100%);
-  --gradient-brand-700>600-45deg: linear-gradient(45deg, #3b7c0f 0%, #4ca30d 100%);
-  --gradient-brand-800>600-45deg: linear-gradient(45deg, #326212 0%, #4ca30d 100%);
-  --gradient-brand-800>600-90deg: linear-gradient(90deg, #326212 0%, #4ca30d 100%);
-  --gradient-brand-800>700(26-5deg): linear-gradient(27deg, #326212 0%, #3b7c0f 100%);
-  --gradient-brand-900>600-45deg: linear-gradient(45deg, #2b5314 0%, #4ca30d 100%);
-  --gradient-brand-900>700-45deg: linear-gradient(45deg, #2b5314 0%, #3b7c0f 100%);
+  --gradient-brand-600>500-90deg: linear-gradient(90deg, #21a67a 0%, #2dbd82 100%);
+  --gradient-brand-700>600-45deg: linear-gradient(45deg, #10774d 0%, #21a67a 100%);
+  --gradient-brand-800>600-45deg: linear-gradient(45deg, #0c5739 0%, #21a67a 100%);
+  --gradient-brand-800>600-90deg: linear-gradient(90deg, #0c5739 0%, #21a67a 100%);
+  --gradient-brand-800>700(26-5deg): linear-gradient(27deg, #0c5739 0%, #10774d 100%);
+  --gradient-brand-900>600-45deg: linear-gradient(45deg, #0b4b31 0%, #21a67a 100%);
+  --gradient-brand-900>700-45deg: linear-gradient(45deg, #0b4b31 0%, #10774d 100%);
   --gradient-linear-10: linear-gradient(0deg, #cfc7f8 0%, #ebbba7 100%);
   --gradient-linear-11: linear-gradient(135deg, #fccb90 0%, #d57eeb 100%);
   --gradient-linear-12: linear-gradient(45deg, #7b6ae0 0%, #ffbb89 100%);
@@ -999,7 +1047,7 @@
    */
   --shadows-shadowXsSkeuomorphic: inset 0 0 0 1px #0a0d122e, inset 0 -2px 0 0 #0a0d120d, 0 1px 2px 0 #0a0d120d;
   --shadows-shadowSm: 0 1px 3px 0 #0a0d121a, 0 1px 2px -1px #0a0d121a; /** Shadows allow you to add depth and realism to designs by positioning elements on a z-axis. */
-  --shadows-shadowMd: 0 4px 6px -1px #0a0d121a, 0 2px 4px -2px #0a0d120f; /** Shadows allow you to add depth and realism to designs by positioning elements on a z-axis. */
+  --shadows-shadowMd: 0 4px 6px -1px #0a0d1214, 0 2px 4px -2px #0a0d120f; /** Shadows allow you to add depth and realism to designs by positioning elements on a z-axis. */
   --shadows-shadowLg: 0 12px 16px -4px #0a0d1214, 0 4px 6px -2px #0a0d1208, 0 2px 2px -1px #0a0d120a; /** Shadows allow you to add depth and realism to designs by positioning elements on a z-axis. */
   --shadows-shadowXl: 0 20px 24px -4px #0a0d1214, 0 8px 8px -4px #0a0d1208, 0 3px 3px -1.5px #0a0d120a; /** Shadows allow you to add depth and realism to designs by positioning elements on a z-axis. */
   --shadows-shadow2xl: 0 24px 48px -12px #0a0d122e, 0 4px 4px -2px #0a0d120a; /** Shadows allow you to add depth and realism to designs by positioning elements on a z-axis. */
@@ -1009,23 +1057,23 @@
   --shadows-portfolioMockups-shadowOverlayRightLg: -40px 40px 72px 0 #0a0d121f; /** Used for portfolio mockup layouts. */
   --shadows-portfolioMockups-shadowOverlayLeftLg: 100px 100px 150px 0 #0a0d121f; /** Used for portfolio mockup layouts. */
   --shadows-portfolioMockups-shadowGridMd: 32px 32px 64px 0 #0a0d1214; /** Used for portfolio mockup layouts. */
-  --focusRings-focusRing: 0 0 0 2px #ffffff, 0 0 0 4px #66c61c; /** Used for focus states in components. For example toggles and checkboxes. */
-  --focusRings-focusRingShadowXs: 0 1px 2px 0 #0a0d120d, 0 0 0 2px #ffffff, 0 0 0 4px #66c61c; /** Used for focus states in components that also require a shadow. For example, buttons and tabs. */
+  --focusRings-focusRing: 0 0 0 2px #f3f4f6, 0 0 0 4px #2dbd82; /** Used for focus states in components. For example toggles and checkboxes. */
+  --focusRings-focusRingShadowXs: 0 1px 2px 0 #0a0d120d, 0 0 0 2px #f3f4f6, 0 0 0 4px #2dbd82; /** Used for focus states in components that also require a shadow. For example, buttons and tabs. */
   /**
    * Used for focus states in components that also require a shadow and a subtle skeuomorphic effect. For example, buttons and tabs.
    * 
    * This can be replaced with focus-ring-shadow-xs if you prefer a flat style.
    */
-  --focusRings-focusRingShadowXsSkeuomorphic: inset 0 0 0 1px #0a0d122e, inset 0 -2px 0 0 #0a0d120d, 0 1px 2px 0 #0a0d120d, 0 0 0 2px #ffffff, 0 0 0 4px #66c61c;
-  --focusRings-focusRingShadowSm: 0 1px 3px 0 #0a0d121a, 0 1px 2px 0 #0a0d121a, 0 0 0 2px #ffffff, 0 0 0 4px #66c61c; /** Used for focus states in components that also require a shadow. For example, buttons and tabs. */
-  --focusRings-focusRingError: 0 0 0 2px #ffffff, 0 0 0 4px #f04438; /** Used for destructive or error focus states in components. For example, destructive button links. */
-  --focusRings-focusRingErrorShadowXs: 0 1px 2px 0 #0a0d120d, 0 0 0 2px #ffffff, 0 0 0 4px #f04438; /** Used for destructive or error focus states in components that also require a shadow. For example, destructive buttons. */
+  --focusRings-focusRingShadowXsSkeuomorphic: 0 0 0 2px #f3f4f6, 0 0 0 4px #2dbd82;
+  --focusRings-focusRingShadowSm: 0 1px 3px 0 #0a0d121a, 0 1px 2px 0 #0a0d121a, 0 0 0 2px #f3f4f6, 0 0 0 4px #2dbd82; /** Used for focus states in components that also require a shadow. For example, buttons and tabs. */
+  --focusRings-focusRingError: 0 0 0 2px #f3f4f6, 0 0 0 4px #f04438; /** Used for destructive or error focus states in components. For example, destructive button links. */
+  --focusRings-focusRingErrorShadowXs: 0 1px 2px 0 #0a0d120d, 0 0 0 2px #f3f4f6, 0 0 0 4px #f04438; /** Used for destructive or error focus states in components that also require a shadow. For example, destructive buttons. */
   /**
    * Used for focus states in destructive or error components that also require a shadow and a subtle skeuomorphic effect. For example, destructive buttons.
    * 
    * This can be replaced with focus-ring-error-shadow-xs if you prefer a flat style.
    */
-  --focusRings-focusRingErrorShadowXsSkeuomorphic: inset 0 0 0 1px #0a0d122e, inset 0 -2px 0 0 #0a0d120d, 0 1px 2px 0 #0a0d120d, 0 0 0 2px #ffffff, 0 0 0 4px #f04438;
+  --focusRings-focusRingErrorShadowXsSkeuomorphic: 0 0 0 2px #f3f4f6, 0 0 0 4px #f04438;
   --fontSize-0: 12px;
   --fontSize-1: 14px;
   --fontSize-2: 16px;
@@ -1039,6 +1087,7 @@
   --fontSize-10: 72px;
   --letterSpacing-0: -0.02em;
   --letterSpacing-1: 0em;
+  --letterSpacing-2: -0.01em;
   --paragraphSpacing-0: 12px;
   --paragraphSpacing-1: 14px;
   --paragraphSpacing-2: 16px;
@@ -1118,6 +1167,7 @@
   --fontSize-displayLg: 48;
   --fontSize-displayXl: 60;
   --fontSize-display2xl: 72;
+  --fontSize-textXxs: 10;
   --lineHeight-textXs: 18;
   --lineHeight-textSm: 20;
   --lineHeight-textMd: 24;
@@ -1129,6 +1179,7 @@
   --lineHeight-displayLg: 60;
   --lineHeight-displayXl: 72;
   --lineHeight-display2xl: 90;
+  --lineHeight-textXxs: 14;
   --containerMaxWidthDesktop: 1280;
   --containerPaddingDesktop: 32;
   --containerPaddingMobile: 16;
@@ -1162,16 +1213,19 @@
   --spacingSm: 6;
   --spacing5xl: 40;
   --radiusNone: 0;
-  --radiusXxs: 2;
-  --radiusXs: 4;
-  --radiusSm: 6;
-  --radiusMd: 8;
-  --radiusXl: 12;
+  --radiusXxs: 4;
+  --radiusXs: 6;
+  --radiusSm: 8;
+  --radiusMd: 10;
+  --radiusXl: 14;
   --radius2xl: 16;
   --radius4xl: 24;
   --radiusFull: 9999;
-  --radiusLg: 10;
+  --radiusLg: 12;
   --radius3xl: 20;
+  --radius5xl: 28;
+  --radius6xl: 32;
+  --diabledOpacity: 50;
   --componentColors-utility-blue-utilityBlue600: #1570ef;
   --componentColors-utility-blue-utilityBlue700: #175cd3;
   --componentColors-utility-blue-utilityBlue500: #2e90fa;
@@ -1180,26 +1234,26 @@
   --componentColors-utility-blue-utilityBlue100: #d1e9ff;
   --componentColors-utility-blue-utilityBlue400: #53b1fd;
   --componentColors-utility-blue-utilityBlue300: #84caff;
-  --componentColors-utility-brand-utilityBrand600: #4ca30d;
-  --componentColors-utility-brand-utilityBrand700: #3b7c0f;
-  --componentColors-utility-brand-utilityBrand500: #66c61c;
-  --componentColors-utility-brand-utilityBrand200: #d0f8ab;
-  --componentColors-utility-brand-utilityBrand50: #f3fee7;
-  --componentColors-utility-brand-utilityBrand100: #e3fbcc;
-  --componentColors-utility-brand-utilityBrand400: #85e13a;
-  --componentColors-utility-brand-utilityBrand50Alt: #f3fee7;
-  --componentColors-utility-brand-utilityBrand100Alt: #e3fbcc;
-  --componentColors-utility-brand-utilityBrand200Alt: #d0f8ab;
-  --componentColors-utility-brand-utilityBrand400Alt: #85e13a;
-  --componentColors-utility-brand-utilityBrand500Alt: #66c61c;
-  --componentColors-utility-brand-utilityBrand600Alt: #4ca30d;
-  --componentColors-utility-brand-utilityBrand700Alt: #3b7c0f;
-  --componentColors-utility-brand-utilityBrand300: #a6ef67;
-  --componentColors-utility-brand-utilityBrand900: #2b5314;
-  --componentColors-utility-brand-utilityBrand800: #326212;
-  --componentColors-utility-brand-utilityBrand300Alt: #a6ef67;
-  --componentColors-utility-brand-utilityBrand800Alt: #326212;
-  --componentColors-utility-brand-utilityBrand900Alt: #2b5314;
+  --componentColors-utility-brand-utilityBrand600: #21a67a;
+  --componentColors-utility-brand-utilityBrand700: #10774d;
+  --componentColors-utility-brand-utilityBrand500: #2dbd82;
+  --componentColors-utility-brand-utilityBrand200: #b3fade;
+  --componentColors-utility-brand-utilityBrand50: #f1fffa;
+  --componentColors-utility-brand-utilityBrand100: #e1fef2;
+  --componentColors-utility-brand-utilityBrand400: #5af3b4;
+  --componentColors-utility-brand-utilityBrand50Alt: #f1fffa;
+  --componentColors-utility-brand-utilityBrand100Alt: #e1fef2;
+  --componentColors-utility-brand-utilityBrand200Alt: #b3fade;
+  --componentColors-utility-brand-utilityBrand400Alt: #5af3b4;
+  --componentColors-utility-brand-utilityBrand500Alt: #2dbd82;
+  --componentColors-utility-brand-utilityBrand600Alt: #21a67a;
+  --componentColors-utility-brand-utilityBrand700Alt: #10774d;
+  --componentColors-utility-brand-utilityBrand300: #96f9d2;
+  --componentColors-utility-brand-utilityBrand900: #0b4b31;
+  --componentColors-utility-brand-utilityBrand800: #0c5739;
+  --componentColors-utility-brand-utilityBrand300Alt: #96f9d2;
+  --componentColors-utility-brand-utilityBrand800Alt: #0c5739;
+  --componentColors-utility-brand-utilityBrand900Alt: #0b4b31;
   --componentColors-utility-gray-utilityGray700: #414651;
   --componentColors-utility-gray-utilityGray600: #535862;
   --componentColors-utility-gray-utilityGray500: #717680;
@@ -1325,26 +1379,26 @@
   --componentColors-components-tooltips-tooltipSupportingText: #d5d7da;
   --componentColors-components-textEditor-textEditorIconFg: #a4a7ae;
   --componentColors-components-textEditor-textEditorIconFgActive: #717680;
-  --componentColors-components-icons-featuredIcons-featuredIconLightFgBrand: #4ca30d;
+  --componentColors-components-icons-featuredIcons-featuredIconLightFgBrand: #21a67a;
   --componentColors-components-icons-featuredIcons-featuredIconLightFgGray: #717680;
   --componentColors-components-icons-featuredIcons-featuredIconLightFgError: #d92d20;
   --componentColors-components-icons-featuredIcons-featuredIconLightFgWarning: #dc6803;
   --componentColors-components-icons-featuredIcons-featuredIconLightFgSuccess: #079455;
-  --componentColors-components-icons-icons-iconFgBrand: #4ca30d;
-  --componentColors-components-icons-icons-iconFgBrandOnBrand: #d0f8ab;
-  --componentColors-components-sliders-sliderHandleBorder: #4ca30d;
+  --componentColors-components-icons-icons-iconFgBrand: #21a67a;
+  --componentColors-components-icons-icons-iconFgBrandOnBrand: #b3fade;
+  --componentColors-components-sliders-sliderHandleBorder: #21a67a;
   --componentColors-components-sliders-sliderHandleBg: #ffffff;
   --componentColors-components-mockups-screenMockupBorder: #181d27;
-  --componentColors-components-footers-footerButtonFg: #d0f8ab;
+  --componentColors-components-footers-footerButtonFg: #b3fade;
   --componentColors-components-footers-footerButtonFgHover: #ffffff;
   --componentColors-components-appStoreBadges-appStoreBadgeBorder: #a6a6a6;
   --componentColors-components-toggles-toggleButtonFgDisabled: #fafafa;
   --componentColors-components-toggles-toggleBorder: #d5d7da;
-  --componentColors-components-toggles-toggleSlimBorderPressed: #4ca30d;
-  --componentColors-components-toggles-toggleSlimBorderPressedHover: #3b7c0f;
+  --componentColors-components-toggles-toggleSlimBorderPressed: #21a67a;
+  --componentColors-components-toggles-toggleSlimBorderPressedHover: #10774d;
   --componentColors-components-avatars-avatarStylesBgNeutral: #e0e0e0;
-  --componentColors-components-buttons-buttonPrimaryIcon: #a6ef67;
-  --componentColors-components-buttons-buttonPrimaryIconHover: #d0f8ab;
+  --componentColors-components-buttons-buttonPrimaryIcon: #96f9d2;
+  --componentColors-components-buttons-buttonPrimaryIconHover: #b3fade;
   --componentColors-components-buttons-buttonDestructivePrimaryIcon: #fda29b;
   --componentColors-components-buttons-buttonDestructivePrimaryIconHover: #fecdca;
   --componentColors-alpha-alphaWhite90: rgba(255, 255, 255, 0.9);
