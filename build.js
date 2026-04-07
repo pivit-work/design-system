@@ -45,6 +45,9 @@ StyleDictionary.registerTransform({
                 camel = camel + '-' + suffix;
             }
 
+            // Remove any remaining CSS-unsafe characters
+            camel = camel.replace(/[^a-zA-Z0-9-_]/g, '');
+
             return camel;
         }).join('-');
     },
