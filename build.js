@@ -33,6 +33,9 @@ StyleDictionary.registerTransform({
                 }
             }
 
+            // Replace ">" with "-to-" for gradient names like "600>500"
+            clean = clean.replace(/>/g, '-to-');
+
             // Convert to camelCase: "Gray light mode" → "grayLightMode", "text-primary" → "textPrimary"
             let camel = clean
                 .replace(/[_\s-]+(.)/g, (_, c) => c.toUpperCase())
