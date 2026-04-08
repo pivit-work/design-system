@@ -41,3 +41,11 @@ jobs:
             https://api.github.com/repos/pivit-work/design-system-docs/dispatches \
             -d '{"event_type":"tokens-updated"}'
 
+      - name: Trigger design-page token sync
+        run: |
+          curl -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${{ secrets.DOCS_DEPLOY_TOKEN }}" \
+            https://api.github.com/repos/pivit-work/design-page/dispatches \
+            -d '{"event_type":"tokens-updated"}'
+
