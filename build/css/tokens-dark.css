@@ -412,7 +412,7 @@
   --colors-grayDark-600: #61656c;
   --colors-grayDark-700: #373a41;
   --colors-grayDark-800: #22262f;
-  --colors-grayDark-900: #161618;
+  --colors-grayDark-900: #18191b;
   --colors-grayDark-950: #0c0e12;
   --colors-emerald-25: #fafffd;
   --colors-emerald-50: #f1fffa;
@@ -464,7 +464,7 @@
   --colors-foreground-fgSecondaryHover: #cecfd2;
   --colors-foreground-fgTertiary: #22262f;
   --colors-foreground-fgTertiaryHover: #373a41;
-  --colors-foreground-fgQuaternary: #161618;
+  --colors-foreground-fgQuaternary: #18191b;
   --colors-foreground-fgQuaternaryHover: #22262f;
   --colors-foreground-fgWhite: #ffffff;
   --colors-foreground-fgDisabled: #85888e;
@@ -491,11 +491,11 @@
   --colors-background-bgSecondarySolid: #94979c;
   --colors-background-bgTertiary: #22262f;
   --colors-background-bgTertiaryHover: #373a41;
-  --colors-background-bgQuaternary: #161618;
+  --colors-background-bgQuaternary: #18191b;
   --colors-background-bgQuaternaryHover: #22262f;
   --colors-background-bgActive: #22262f;
   --colors-background-bgDisabled: #22262f;
-  --colors-background-bgDisabledSubtle: #161618;
+  --colors-background-bgDisabledSubtle: #18191b;
   --colors-background-bgOverlay: #373a41;
   --colors-background-bgField: #22262f;
   --colors-background-bgBrandPrimary: #2dbd82;
@@ -1252,7 +1252,7 @@
   --componentColors-alpha-alphaBlack80: rgba(255, 255, 255, 0.8);
   --componentColors-alpha-alphaBlack90: rgba(255, 255, 255, 0.9);
   --componentColors-alpha-alphaBlack100: #ffffff;
-  --componentColors-utility-gray-utilityGray50: #161618;
+  --componentColors-utility-gray-utilityGray50: #18191b;
   --componentColors-utility-gray-utilityGray100: #22262f;
   --componentColors-utility-gray-utilityGray200: #373a41;
   --componentColors-utility-gray-utilityGray300: #61656c;
@@ -1263,7 +1263,7 @@
   --componentColors-utility-gray-utilityGray800: #f0f0f1;
   --componentColors-utility-gray-utilityGray900: #f7f7f7;
   --componentColors-utility-brand-utilityBrand50: #072619;
-  --componentColors-utility-brand-utilityBrand50Alt: #161618;
+  --componentColors-utility-brand-utilityBrand50Alt: #18191b;
   --componentColors-utility-brand-utilityBrand100: #0b4b31;
   --componentColors-utility-brand-utilityBrand100Alt: #22262f;
   --componentColors-utility-brand-utilityBrand200: #0c5739;
